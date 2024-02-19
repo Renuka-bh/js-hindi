@@ -5,8 +5,8 @@
 
 // alert("hello")    // we are using node.js not browser
 
-let name = "Renuka"    // string
-let age = 25           //number
+let name       = "Renuka"    // string
+let age        = 25           //number
 let isLoggedin = false // boolean
 
 

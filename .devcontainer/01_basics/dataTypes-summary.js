@@ -10,7 +10,6 @@ Symbol
 BigInt
 */
 
-
 /*
 ~~~~~ Referance type/ non-primitive data type  ~~~~~~~~
 Array
@@ -57,3 +56,19 @@ console.log("Hello World");
 }
 
 console.log(typeof myfunction)
+
+// Stack (Primitive), Heap (Non-Primitive) 
+
+let myYoutubeName = "RenukaPawardotcom"
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne 
+
+userTwo.email = "renukapawar@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
